@@ -30,9 +30,7 @@ namespace Game.Script.CharacterBase
                 foreach (var item in customerQueue)
                 {
                     item.GetComponent<CustomerBrain>().FindTarget();
-                   
                 }
-
                 var character = CharacterSpawner.Instance.CreateCharacter(characterItem, spawnPoint);
                 customerQueue.Enqueue(character);
                 _timer = 0;

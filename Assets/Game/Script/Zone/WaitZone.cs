@@ -8,7 +8,7 @@ namespace Game.Script.Zone
         private float _timer;
         public bool ReachWaitZone { get; set; }
 
-        private void OnTriggerStay(Collider other)
+        private void OnTriggerEnter(Collider other)
         {
             if (other.TryGetComponent(out WorkerBrain _))
             {
