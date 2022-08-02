@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763160f0e24c4d9695fbb32b37781028, type: 3}
   m_Name: WorkerItem
   m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
   collectCapacity: 10
   collectDuration: 0.5
   dropDuration: 0.5
-  movementSpeed: 2
+  movementSpeed: 8
   stoppingDistance: 0.001
   acceleration: 14
   angularSpeed: 720

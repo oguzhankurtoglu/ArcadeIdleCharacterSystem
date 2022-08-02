@@ -389,6 +389,7 @@
 "Assets/Game/Script/CharacterBrain/CustomerBrain.cs"
 "Assets/Game/Script/CharacterBrain/WorkerBrain.cs"
 "Assets/Game/Script/Data/CharacterItem.cs"
+"Assets/Game/Script/DestroyItem.cs"
 "Assets/Game/Script/Executer.cs"
 "Assets/Game/Script/MonoSingleton.cs"
 "Assets/Game/Script/StateMachine/CashierState.cs"

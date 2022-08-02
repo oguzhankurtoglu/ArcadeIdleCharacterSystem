@@ -109,6 +109,7 @@
      <Compile Include="Assets\Game\Script\Zone\WaitZone.cs" />
      <Compile Include="Assets\Game\Script\StateMachine\CashierState.cs" />
      <Compile Include="Assets\Game\Script\Executer.cs" />
+     <Compile Include="Assets\Game\Script\DestroyItem.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
      <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />

@@ -5,9 +5,10 @@ namespace Game.Script.Zone
 {
     public class WaitZone : MonoBehaviour
     {
+        private float _timer;
         public bool ReachWaitZone { get; set; }
 
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
             if (other.TryGetComponent(out WorkerBrain _))
             {

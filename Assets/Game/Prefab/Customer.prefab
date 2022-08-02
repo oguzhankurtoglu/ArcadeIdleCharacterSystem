@@ -98,6 +98,7 @@ MonoBehaviour:
   target: {fileID: 0}
   customerState: 0
   destroyZone: {fileID: 0}
+  waitZone: {fileID: 0}
 --- !u!195 &2924255701016425169
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -206,7 +207,7 @@ PrefabInstance:
     - target: {fileID: -6751946705918458727, guid: ec5acbbf1733d6a46a63d266dbcae54b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: bcc6c4f721845d9468b1225822a4d612, type: 2}
+      objectReference: {fileID: 2100000, guid: b28f5409c0287774c84ec39720680e40, type: 2}
     - target: {fileID: 919132149155446097, guid: ec5acbbf1733d6a46a63d266dbcae54b, type: 3}
       propertyPath: m_Name
       value: Stickman_v01@T-Pose

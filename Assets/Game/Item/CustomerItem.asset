@@ -16,7 +16,7 @@ MonoBehaviour:
   collectCapacity: 10
   collectDuration: 0.5
   dropDuration: 0.5
-  movementSpeed: 2
+  movementSpeed: 4
   stoppingDistance: 0.1
   acceleration: 14
   angularSpeed: 720

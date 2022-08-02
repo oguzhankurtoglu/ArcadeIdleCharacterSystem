@@ -79,10 +79,12 @@ namespace Game.Script.CharacterBrain
         public void FindTarget()
         {
             target = _customerManager.slots[_customerManager.customerQueue.ToList().IndexOf(transform.gameObject)];
-            if (_customerManager.customerQueue.ToList().IndexOf(transform.gameObject) == 0)
+            if (_customerManager.customerQueue.ToList().IndexOf(transform.gameObject) == 0 &&
+                customerState == CustomerState.Drop)
             {
                 customerState = CustomerState.Collect;
             }
+
             Movement();
         }
 

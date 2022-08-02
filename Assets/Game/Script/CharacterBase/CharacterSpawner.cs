@@ -10,6 +10,7 @@ namespace Game.Script.CharacterBase
             var character = Instantiate(characterItem.prefab, spawnPoint);
             character.transform.position = spawnPoint.position;
             character.transform.localEulerAngles = spawnPoint.localEulerAngles;
+            character.name = characterItem.name + Time.realtimeSinceStartup;
             return character;
         }
     }
