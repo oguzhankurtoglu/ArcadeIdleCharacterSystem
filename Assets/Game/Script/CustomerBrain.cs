@@ -19,14 +19,18 @@ namespace Game.Script
         public CustomerState customerState;
         public Transform destroyZone;
         private CustomerManager _customerManager;
+        [SerializeField] private WaitZone waitZone;
+
 
         #region Unity Lifecycle
 
         private void Awake()
         {
-            _customerManager = transform.parent.parent.GetComponentInChildren<CustomerManager>();
+            var parent = transform.parent;
+            _customerManager = parent.parent.GetComponentInChildren<CustomerManager>();
             customerState = CustomerState.Bring;
             destroyZone = GameObject.FindGameObjectWithTag("DestroyZone").transform;
+            waitZone = transform.root.GetComponentInChildren<WaitZone>();
         }
 
         protected new void Start()
@@ -57,9 +61,9 @@ namespace Game.Script
                     customerState = CustomerState.Wait;
                     break;
                 case CustomerState.Wait:
-                    customerState = CustomerState.Collect;
+                    customerState = CustomerState.Drop;
                     break;
-                case CustomerState.Collect :
+                case CustomerState.Collect when waitZone.ReachWaitZone:
                     target = destroyZone;
                     customerState = CustomerState.Destroy;
                     _customerManager.customerQueue.Dequeue();
@@ -74,6 +78,10 @@ namespace Game.Script
         public void FindTarget()
         {
             target = _customerManager.slots[_customerManager.customerQueue.ToList().IndexOf(transform.gameObject)];
+            if (_customerManager.customerQueue.ToList().IndexOf(transform.gameObject) == 0)
+            {
+                customerState = CustomerState.Collect;
+            }
             Movement();
         }
 
@@ -93,7 +101,6 @@ namespace Game.Script
             IsDestinationReach();
             CheckCustomerSituation();
             Animator.SetFloat("Velocity", NavMeshAgent.velocity.magnitude);
-
         }
 
         public override void Movement()

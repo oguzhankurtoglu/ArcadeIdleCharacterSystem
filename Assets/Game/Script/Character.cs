@@ -4,19 +4,20 @@ using System.Collections.Generic;
 using Game.Script;
 using UnityEngine;
 
- public enum CharacterType
-    {
-        Player,
-        AI
-    }
+public enum CharacterType
+{
+    Player,
+    AI
+}
 
-    public enum AIBrainType
-    {
-        None,
-        Idle,
-        Worker,
-        Customer
-    }
+public enum AIBrainType
+{
+    None,
+    Idle,
+    Worker,
+    Customer
+}
+
 public class Character : MonoBehaviour
 {
     #region fields
@@ -26,10 +27,13 @@ public class Character : MonoBehaviour
     private ICharacter _characterProps;
     public ICharacter CharacterProps => _characterProps ??= GetComponent<ICharacter>();
 
+
     private void Update()
     {
         CharacterProps.Logic();
     }
+
+   
 
     #endregion
 }

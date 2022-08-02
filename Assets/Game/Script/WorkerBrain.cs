@@ -11,9 +11,9 @@ namespace Game.Script
         [SerializeField] public List<InputStorage> collectList;
         [SerializeField] public List<GameObject> zoneList;
         [SerializeField] public List<OutputStorage> dropList;
+        [SerializeField] public List<WaitZone> waitZone;
         [SerializeField] public Transform target;
         private State _currentState;
-
         private void FindRelatedZone() // Find related zones, each ai must know own currencies
         {
             zoneList.AddRange(GameObject.FindGameObjectsWithTag("Zone"));
@@ -24,6 +24,10 @@ namespace Game.Script
                 .Where(r => r != null));
             dropList = drop.ToList();
 
+            var wait = zoneList.SelectMany(o => o.transform.GetComponentsInParent<WaitZone>()
+                .Where(r => r != null));
+            waitZone = wait.ToList();
+            
             SetState(new CollectState(this));
         }
 

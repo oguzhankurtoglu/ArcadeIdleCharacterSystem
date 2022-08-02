@@ -106,6 +106,8 @@
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXEffectController.cs" />
+     <Compile Include="Assets\Game\Script\WaitZone.cs" />
+     <Compile Include="Assets\Game\Script\StateMachine\CashierState.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
      <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />

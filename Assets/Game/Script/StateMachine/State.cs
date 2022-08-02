@@ -28,15 +28,15 @@ namespace Game.Script.StateMachine
         {
             //yield return new WaitUntil(() => Brain.IsDestinationReach());
             //var random = Random.Range(0,2);
-            var random = 0;
+            var random = Random.Range(0,2);
             switch (random)
             {
                 case 0:
                     Brain.SetState(new CollectState(Brain));
                     break;
-                //case 1:
-                //    Brain.SetState(new DropState(Brain));
-                //    break;
+                case 1:
+                    Brain.SetState(new CashierState(Brain));
+                    break;
             }
             yield break;
         }
