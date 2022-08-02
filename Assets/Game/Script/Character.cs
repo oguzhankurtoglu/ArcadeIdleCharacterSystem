@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Game.Script;
 using UnityEngine;
 
  public enum CharacterType
@@ -21,6 +23,13 @@ public class Character : MonoBehaviour
 
     public CharacterType characterType;
     public AIBrainType aiBrainType;
+    private ICharacter _characterProps;
+    public ICharacter CharacterProps => _characterProps ??= GetComponent<ICharacter>();
+
+    private void Update()
+    {
+        CharacterProps.Logic();
+    }
 
     #endregion
 }

@@ -40,7 +40,6 @@ namespace Game.Script
         private bool IsDestinationReach()
         {
             float distanceToTarget = Vector3.Distance(transform.position, NavMeshAgent.destination);
-            Animator.SetFloat("Velocity", NavMeshAgent.velocity.magnitude);
 
             if (distanceToTarget < NavMeshAgent.stoppingDistance)
             {
@@ -93,6 +92,8 @@ namespace Game.Script
         {
             IsDestinationReach();
             CheckCustomerSituation();
+            Animator.SetFloat("Velocity", NavMeshAgent.velocity.magnitude);
+
         }
 
         public override void Movement()

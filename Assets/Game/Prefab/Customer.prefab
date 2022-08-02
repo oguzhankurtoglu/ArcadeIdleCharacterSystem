@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6650762586682722292}
   - component: {fileID: 4244327433482898478}
   - component: {fileID: 669107202563543694}
-  - component: {fileID: 2924255701016425169}
   - component: {fileID: -5923716953799642287}
+  - component: {fileID: 2924255701016425169}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Untagged
@@ -81,6 +81,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterType: 1
   aiBrainType: 1
+--- !u!114 &-5923716953799642287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3914415396605309827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da67b97115756246bab1072250d0ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterItem: {fileID: 11400000, guid: eedf3d10ee70e4146a74b6d2a4573484, type: 2}
+  aiState: 0
+  target: {fileID: 0}
+  customerState: 0
+  destroyZone: {fileID: 0}
 --- !u!195 &2924255701016425169
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -103,23 +120,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 3
   m_ObstacleAvoidanceType: 4
---- !u!114 &-5923716953799642287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3914415396605309827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5da67b97115756246bab1072250d0ec4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterItem: {fileID: 11400000, guid: eedf3d10ee70e4146a74b6d2a4573484, type: 2}
-  aiState: 0
-  target: {fileID: 0}
-  customerState: 0
-  destroyZone: {fileID: 0}
 --- !u!1 &6006772001207574344
 GameObject:
   m_ObjectHideFlags: 0
