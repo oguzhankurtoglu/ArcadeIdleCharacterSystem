@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{33ecde32-68b0-e6fe-bc72-4636ce27f217}</ProjectGuid>
+    <ProjectGuid>{d91922f1-adfe-77e3-8652-d3eefdd8dfb8}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,45 +41,45 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Upgrader.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\CodeInjection.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Config.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\GlobalOptions.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Tooltip.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_GetPosOnWater_Editor.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_ShaderGenerator.UIFeatures.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ReorderableLayoutList.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_ShaderGeneratorUtils.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_MaterialInspector_SG.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_ShaderGenerator.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_ShaderUpdateUnityTime_Editor.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\MaterialLayer.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderGenerator2.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_RampGenerator.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\MaterialInspector_SG2.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_SmoothedNormalsUtility.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Serialization.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\GlobalOptions.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Importer\TCP2_ShaderPostProcessor.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_OutlineInspector.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Config.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_GUI.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_Utils.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_ShaderGenerator.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Upgrader.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_SmoothedNormalsUtility.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ReorderableLayoutList.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderProperty.CustomMaterialProperty.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderProperty.Implementations.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_PBS.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Serialization.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\UIFeatures.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_RampGenerator.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderGenerator2.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_OutlineInspector.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderProperty.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Importer\TCP2_ShaderImporter.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Template.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_MaterialInspector_PBS_SG.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\MaterialInspector_SG2.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_ShaderGeneratorUtils.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\SGUILayout.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ExpressionParser.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_Config.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\MaterialLayer.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Menu.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GradientManager.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Module.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_ShaderGenerator.UIFeatures.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_MaterialInspector_SG.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Tooltip.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderProperty.Implementations.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_MaterialInspector_PBS_SG.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Importer\TCP2_ShaderImporter.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\SGUILayout.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Menu.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderProperty.CustomMaterialProperty.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_MaterialInspector_SurfacePBS_SG.cs" />
      <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\MaterialInspector_Hybrid.cs" />
-     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Importer\TCP2_ShaderPostProcessor.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_MaterialInspector_PBS.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\ShaderProperty.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\Template.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Legacy\TCP2_Config.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GradientManager.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Generator\UIFeatures.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Inspectors\TCP2_GetPosOnWater_Editor.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ExpressionParser.cs" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Editor\ToonyColorsPro.Editor.asmdef" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Editor\Fonts\Roboto\Roboto - Apache License.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Editor\Fonts\sen\sen - SIL Open Font License.txt" />
@@ -342,58 +342,58 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-     </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-     </Reference>
-     <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="DemiLib">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Plastic.Antlr3.Runtime">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.YamlDotNet">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenProEditor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenEditor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
      </Reference>
      <Reference Include="DemiEditor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.TextureAssets">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.IonicZip">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     </Reference>
+     <Reference Include="log4netPlastic">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="DOTween">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenPro">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenUpgradeManager">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenUpgradeManager.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenUpgradeManager.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -783,21 +783,21 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TestRunner">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{4407afbf-6d84-f168-427d-e8224f80decf}</Project>
+      <Project>{6d852b9d-906e-ae0d-345d-1a2f64806ec2}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

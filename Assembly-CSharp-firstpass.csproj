@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{460ea663-edd2-f7a7-9310-547926629721}</ProjectGuid>
+    <ProjectGuid>{d1609caa-b2ef-749f-0488-f6dd1359b151}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,20 +41,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
      <None Include="Assets\Plugins\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\Plugins\Demigiant\DOTweenPro\readme.txt" />
      <None Include="Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.xml" />
@@ -302,23 +302,23 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-     </Reference>
      <Reference Include="DemiLib">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
      </Reference>
      <Reference Include="DOTween">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="DOTweenPro">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -699,110 +699,110 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AI.Navigation">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AI.Navigation.Editor">
-     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\FiniteStateMachine\FiniteStateMachine\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>C:\Users\Yamy Studio 02\Documents\GitHub\ArcadeIdleCharacterSystem\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
-      <Project>{9245051a-c1bb-61fc-baf7-ff61806c96c6}</Project>
-      <Name>ToonyColorsPro2.Demo</Name>
-    </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{42d843d6-118d-7f90-f6dc-12bf5389b150}</Project>
+      <Project>{fdf887ad-8e88-a846-037d-598fb762304a}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{bd1861bc-1625-b1c1-ceaf-a5917bf37522}</Project>
+      <Project>{448045bf-f27b-3cc5-e2e6-60bd38a40442}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{4407afbf-6d84-f168-427d-e8224f80decf}</Project>
+      <Project>{6d852b9d-906e-ae0d-345d-1a2f64806ec2}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Editor.csproj">
-      <Project>{33ecde32-68b0-e6fe-bc72-4636ce27f217}</Project>
+      <Project>{d91922f1-adfe-77e3-8652-d3eefdd8dfb8}</Project>
       <Name>ToonyColorsPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
+      <Project>{c9b8036c-0780-719d-910d-a1e5101bd43b}</Project>
+      <Name>ToonyColorsPro2.Demo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
