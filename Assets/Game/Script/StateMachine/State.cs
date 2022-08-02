@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Game.Script.CharacterBrain;
 using UnityEngine;
 
 namespace Game.Script.StateMachine

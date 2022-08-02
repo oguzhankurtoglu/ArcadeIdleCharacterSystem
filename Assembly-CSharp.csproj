@@ -41,21 +41,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game\Script\InputStorage.cs" />
-     <Compile Include="Assets\Game\Script\OutputStorage.cs" />
-     <Compile Include="Assets\Game\Script\CharacterBrainBase.cs" />
-     <Compile Include="Assets\Game\Script\Character.cs" />
-     <Compile Include="Assets\Game\Script\WorkerBrain.cs" />
+     <Compile Include="Assets\Game\Script\Storage\InputStorage.cs" />
+     <Compile Include="Assets\Game\Script\Storage\OutputStorage.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBase\CharacterBrainBase.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBase\Character.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBrain\WorkerBrain.cs" />
      <Compile Include="Assets\Game\Script\StateMachine\State.cs" />
      <Compile Include="Assets\Game\Script\StateMachine\DropState.cs" />
-     <Compile Include="Assets\Game\Script\CharacterItem.cs" />
-     <Compile Include="Assets\Game\Script\CharacterAnimator.cs" />
+     <Compile Include="Assets\Game\Script\Data\CharacterItem.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBase\CharacterAnimator.cs" />
      <Compile Include="Assets\Game\Script\StateMachine\CollectState.cs" />
-     <Compile Include="Assets\Game\Script\ICharacter.cs" />
-     <Compile Include="Assets\Game\Script\CustomerBrain.cs" />
-     <Compile Include="Assets\Game\Script\CustomerManager.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBase\ICharacter.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBrain\CustomerBrain.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBase\CustomerManager.cs" />
      <Compile Include="Assets\Game\Script\MonoSingleton.cs" />
-     <Compile Include="Assets\Game\Script\CharacterSpawner.cs" />
+     <Compile Include="Assets\Game\Script\CharacterBase\CharacterSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
@@ -106,8 +106,9 @@
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXEffectController.cs" />
-     <Compile Include="Assets\Game\Script\WaitZone.cs" />
+     <Compile Include="Assets\Game\Script\Zone\WaitZone.cs" />
      <Compile Include="Assets\Game\Script\StateMachine\CashierState.cs" />
+     <Compile Include="Assets\Game\Script\Executer.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
      <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
