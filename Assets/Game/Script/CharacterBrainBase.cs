@@ -14,6 +14,7 @@ namespace Game.Script
     public abstract class CharacterBrainBase : MonoBehaviour,ICharacter
     {
         #region Fields
+        [SerializeField] public CharacterItem characterItem;
 
         public AIState aiState = AIState.Idle;
         private Character _character;

@@ -8,7 +8,6 @@ namespace Game.Script
     public class WorkerBrain : CharacterBrainBase
     {
         [SerializeField] public State previousState;
-        [SerializeField] public CharacterItem workerItem;
         [SerializeField] public List<InputStorage> collectList;
         [SerializeField] public List<GameObject> zoneList;
         [SerializeField] public List<OutputStorage> dropList;
@@ -52,10 +51,10 @@ namespace Game.Script
         {
             base.InitProperties();
 
-            NavMeshAgent.speed = workerItem.movementSpeed;
-            NavMeshAgent.stoppingDistance = workerItem.stoppingDistance;
-            NavMeshAgent.acceleration = workerItem.acceleration;
-            NavMeshAgent.angularSpeed = workerItem.angularSpeed;
+            NavMeshAgent.speed = characterItem.movementSpeed;
+            NavMeshAgent.stoppingDistance = characterItem.stoppingDistance;
+            NavMeshAgent.acceleration = characterItem.acceleration;
+            NavMeshAgent.angularSpeed = characterItem.angularSpeed;
             FindRelatedZone();
         }
 

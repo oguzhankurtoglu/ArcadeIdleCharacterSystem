@@ -52,6 +52,10 @@
      <Compile Include="Assets\Game\Script\CharacterAnimator.cs" />
      <Compile Include="Assets\Game\Script\StateMachine\CollectState.cs" />
      <Compile Include="Assets\Game\Script\ICharacter.cs" />
+     <Compile Include="Assets\Game\Script\CustomerBrain.cs" />
+     <Compile Include="Assets\Game\Script\CustomerManager.cs" />
+     <Compile Include="Assets\Game\Script\MonoSingleton.cs" />
+     <Compile Include="Assets\Game\Script\CharacterSpawner.cs" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar Sampling.txt" />
      <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Dissolve.shader" />
